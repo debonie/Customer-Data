@@ -50,10 +50,10 @@ while True:
     
     returning_customer = input("Are you a returning customer? (yes or no) >>> ").lower().strip()
     if returning_customer == 'yes':
-        name = input("What's your first name so I can look up your loyalty points? >>> ").lower().strip()
+        email = input("What's your email so I can look up your loyalty points? >>> ").lower().strip()
         
         for x in doc:
-            if doc[x]['FirstName'].lower().strip() == name.lower().strip():
+            if doc[x]['Email'].lower().strip() == email.lower().strip():
                 customer_data = doc[x]       
         
         if customer_data:
