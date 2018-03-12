@@ -1,8 +1,8 @@
 CustomerInfo1:
   Email: deemj@yahoo.com
   FirstName: dee
-  LastName: j
-  Points: 1900
+  LastName: johnson
+  Points: 1100
 CustomerInfo2:
   Email: satchh@y.com
   FirstName: satch
@@ -27,4 +27,9 @@ CustomerInfo6:
   Email: bb.com
   FirstName: briar
   LastName: b
+  Points: '1000'
+CustomerInfo7:
+  Email: satchp@gmail.com
+  FirstName: satch
+  LastName: page
   Points: '1000'
